@@ -40,7 +40,9 @@ var ReadyIndex = parseInt(index.value);
 
 arr[ReadyIndex] = value.value;
 
-alert(arr);
+el.innerHTML = arr;
+
+// alert(arr);
 
 }
 
@@ -56,7 +58,9 @@ function popAray (){
 
 arr.pop();
 
-alert(arr);
+el.innerHTML = arr;
+
+// alert(arr);
 
 }
 
@@ -70,7 +74,9 @@ function pushAray (){
 
 arr.push(value.value);
 
-alert(arr);
+el.innerHTML = arr;
+
+// alert(arr);
 
 }
 
@@ -85,7 +91,9 @@ function shiftAray (){
 
 arr.shift();
 
-alert(arr);
+el.innerHTML = arr;
+
+// alert(arr);
 
 }
 
@@ -99,6 +107,8 @@ function unshiftAray (){
 
 arr.unshift(value.value);
 
-alert(arr);
+el.innerHTML = arr;
+
+// alert(arr);
 
 }
